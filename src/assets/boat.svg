@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   width="14.195398mm"
+   height="14.653234mm"
+   viewBox="0 0 14.195398 14.653234"
+   version="1.1"
+   id="svg2224">
+  <defs
+     id="defs2218">
+    <filter
+       id="filter23_d"
+       x="620"
+       y="340"
+       width="53.651901"
+       height="55.382301"
+       filterUnits="userSpaceOnUse"
+       color-interpolation-filters="sRGB">
+      <feFlood
+         flood-opacity="0"
+         result="BackgroundImageFix"
+         id="feFlood1026" />
+      <feColorMatrix
+         in="SourceAlpha"
+         type="matrix"
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+         id="feColorMatrix1028" />
+      <feOffset
+         id="feOffset1030" />
+      <feGaussianBlur
+         stdDeviation="2.5"
+         id="feGaussianBlur1032" />
+      <feColorMatrix
+         type="matrix"
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
+         id="feColorMatrix1034" />
+      <feBlend
+         mode="normal"
+         in2="BackgroundImageFix"
+         result="effect1_dropShadow"
+         id="feBlend1036" />
+      <feBlend
+         mode="normal"
+         in="SourceGraphic"
+         in2="effect1_dropShadow"
+         result="shape"
+         id="feBlend1038" />
+    </filter>
+  </defs>
+  <metadata
+     id="metadata2221">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     transform="translate(182.47866,176.65995)">
+    <g
+       filter="url(#filter23_d)"
+       id="g280"
+       transform="matrix(0.26458333,0,0,0.26458333,-346.52032,-266.61828)">
+      <path
+         d="m 661.116,363.324 -25.123,27.058 -1.414,-9.5 -9.579,-0.706 25.123,-27.058 13.033,-3.015 z"
+         fill="#ff0000"
+         id="path278" />
+    </g>
+  </g>
+</svg>
