@@ -25,6 +25,8 @@ import Feature, { FeatureLike } from 'ol/Feature';
 export class AppComponent {
   title = 'MapDemo';
   map?: Map;
+  shouldDisplay: boolean = false;
+  data: any;
 
   constructor(
     private mapService: MapService,
@@ -53,6 +55,19 @@ export class AppComponent {
   }
 
   //Event methods
+  onItemClicked(event: string) {
+    this.shouldDisplay = true;
+    if (event === 'one') {
+      this.data = 'display stuff for item one';
+    } else {
+      this.data = 'display stuff for item two';
+    }
+  }
+
+  onCloseMenu() {
+    this.shouldDisplay = false;
+  }
+
   private onClick(event: MapBrowserPointerEvent) {
     console.log('clicked me', event);
     if (this.map === undefined) {

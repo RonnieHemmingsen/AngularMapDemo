@@ -1,3 +1,37 @@
+.container {
+  position: relative;
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+}
+
+.collapsed-menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 10%;
+  min-height: 100%;
+  background-color: blue;
+}
+
+.expanded-menu {
+  position: absolute;
+  top: 0;
+  left: 10%;
+  min-width: 20%;
+  min-height: 100%;
+  background-color: red;
+}
+
+.expanded-menu__close {
+  position: absolute;
+  top: 5%;
+  left: 30%;
+  min-width: 2%;
+  min-height: 5%;
+  background-color: green;
+}
+
 .map {
   height: 800px;
   width: 100%;

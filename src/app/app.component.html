@@ -1,1 +1,13 @@
-<div id="map" class="map"></div>
+<div class="container">
+  <div id="map" class="map"></div>
+  <div class="collapsed-menu">
+    <ul>
+      <li (click)="onItemClicked('one')">item one</li>
+      <li (click)="onItemClicked('two')">item two</li>
+    </ul>
+  </div>
+  <ng-container *ngIf="shouldDisplay">
+    <div class="expanded-menu">{{ data }}</div>
+    <div class="expanded-menu__close" (click)="onCloseMenu()"><-</div>
+  </ng-container>
+</div>
